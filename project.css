@@ -1,0 +1,172 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-light");
+
+/* css reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "gilroy-light", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+
+/* utility */
+
+a {
+  text-decoration: none;
+}
+.primary-color {
+  color: #0065fe;
+}
+
+.secondary-color {
+  color: #141414;
+}
+
+.nav-container {
+  margin-top: 12px;
+  height: 44px;
+}
+
+.wrapper {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex start;
+  height: 24px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+nav .log-in {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 44px;
+}
+
+.log-in a {
+  font-family: "gilroy-SemiBold";
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  margin-right: 24px;
+  color: #0065fe;
+}
+
+.btn {
+  background-color: #0065fe;
+  color: #ffff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 100px;
+}
+
+.nav-btn {
+  background-color: #0065fe;
+  color: #ffff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 100px;
+}
+
+/* hero section */
+
+#hero-section {
+  margin-top: 20px;
+}
+
+.section-content {
+  width: 950px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.section-content h2 {
+  color: #141414;
+  text-align: center;
+  font-size: 48px;
+  font-family: "gilroy-bold";
+  line-height: 96px;
+}
+.url-link {
+  position: relative;
+}
+.section-content .underline-image {
+  position: absolute;
+  bottom: -90%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.section-content p {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "gilroy-light";
+  line-height: 28px;
+}
+
+.call-to-action {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+}
+
+#hero-image {
+  display: flex;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  z-index: 1;
+  margin-block: 48px;
+}
+
+.image-bg {
+  position: absolute;
+  top: -24px;
+  left: 3.2px;
+  height: 100%;
+  z-index: -1;
+}
+
+.group-content img {
+  width: 100%;
+  display: block;
+}
